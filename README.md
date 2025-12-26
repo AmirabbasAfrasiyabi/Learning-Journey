@@ -12,7 +12,7 @@ This repository contains my projects, exercises, and notes from various programm
 
 ## 📚 Courses Overview
 
-### 1️⃣ Python - 100 Days of Code Bootcamp
+### 1️⃣ Python :
 **🔗 Source:** [git.ir - 100 Days of Code](https://git.ir/udemy-100-days-of-code-the-complete-python-pro-bootcamp-for-2023/)
 
 **🎯 Learning Objectives:**
@@ -24,11 +24,11 @@ This repository contains my projects, exercises, and notes from various programm
 - Build complete websites and web applications with Python
 - Use Python for data science and machine learning
 
-**📁 Directory:** `/python-100-days/`
+**📁 Directory:** `/python/`
 
 ---
 
-### 2️⃣ Go (Golang) - Complete Developer's Guide
+### 2️⃣ Go (Golang) :
 **🔗 Source:** [git.ir - Go Complete Guide](https://git.ir/udemy-go-the-complete-developers-guide-golang/)
 
 **🎯 Learning Objectives:**
@@ -39,11 +39,11 @@ This repository contains my projects, exercises, and notes from various programm
 - Use interfaces to dramatically simplify complex programs
 - Use types to future-proof programs and reduce difficulty of refactors
 
-**📁 Directory:** `/golang-complete/`
+**📁 Directory:** `/golang/`
 
 ---
 
-### 3️⃣ SQL & PostgreSQL - Zero to Hero Bootcamp
+### 3️⃣ SQL & PostgreSQL:
 **🔗 Source:** [git.ir - SQL Bootcamp](https://git.ir/udemy-the-complete-sql-bootcamp-go-from-zero-to-hero-2/)
 
 **🎯 Learning Objectives:**
@@ -57,7 +57,7 @@ This repository contains my projects, exercises, and notes from various programm
 
 ---
 
-### 4️⃣ JavaScript 2025 - Zero to Expert
+### 4️⃣ JavaScript:
 **🔗 Source:** [git.ir - Complete JavaScript](https://git.ir/udemy-the-complete-javascript-course-2025-from-zero-to-expert2/)
 
 **🎯 Learning Objectives:**
@@ -76,7 +76,7 @@ This repository contains my projects, exercises, and notes from various programm
 - Get fast and friendly support in the Q&A area
 - Course pathways: design your unique learning path according to your goals!
 
-**📁 Directory:** `/javascript-2025/`
+**📁 Directory:** `/javascript/`
 
 ---
 
@@ -84,18 +84,14 @@ This repository contains my projects, exercises, and notes from various programm
 
 ```
 learning-journey/
-├── python-100-days/
-│   ├── day-001-015/          # Beginner Level
+├── python/
+│   ├── days1/         
 │   │   ├── day-001/
-│   │   │   ├── main.py
-│   │   │   └── README.md
-│   │   └── ...
-│   ├── day-016-031/          # Intermediate Level
-│   ├── day-032-058/          # Intermediate+ Level
-│   ├── day-059-081/          # Advanced Level
-│   ├── day-082-100/          # Professional Level
+│   ├── days2/          
+│   ├── days3/          
+│   ├── day4/          
 │   ├── requirements.txt
-│   └── README.md
+
 │
 ├── golang-complete/
 │   ├── basics/
@@ -109,7 +105,7 @@ learning-journey/
 │   ├── projects/
 │   ├── go.mod
 │   ├── go.sum
-│   └── README.md
+
 │
 ├── sql-postgresql/
 │   ├── queries/
@@ -171,8 +167,8 @@ python --version
 python3 --version
 
 # Clone the repository
-git clone <repository-url>
-cd learning-journey/python-100-days
+git clone https://github.com/AmirabbasAfrasiyabi/Learning-Journey
+cd learning-journey/python 
 
 # Create virtual environment
 python -m venv venv
@@ -187,32 +183,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Run a specific day's project
-cd day-001
-python main.py
+cd days1
+python days1.py
 
 # Deactivate virtual environment when done
 deactivate
 ```
-
-**Required Python Packages (requirements.txt):**
-```txt
-flask>=2.3.0
-pandas>=2.0.0
-numpy>=1.24.0
-scikit-learn>=1.3.0
-matplotlib>=3.7.0
-plotly>=5.14.0
-selenium>=4.10.0
-beautifulsoup4>=4.12.0
-requests>=2.31.0
-lxml>=4.9.0
-pillow>=10.0.0
-```
-
-**Each Project Contains:**
-- `main.py` - Main execution file
-- `README.md` - Project description and instructions
-- Additional helper files as needed
 
 ---
 
@@ -405,92 +381,12 @@ npx http-server -p 8000
 
 ## 🎯 Overall Goals
 
-- ✅ Build at least **100+ projects** across different languages
 - ✅ Master **Full-Stack Development** skills
 - ✅ Prepare for job market and interviews
 - ✅ Create a strong, diverse portfolio
 - ✅ Learn industry best practices and design patterns
 - ✅ Develop problem-solving and debugging skills
 - ✅ Understand how to architect and scale applications
-
----
-
-## 📊 Learning Progress
-
-| Course | Progress | Status | Projects Completed |
-|--------|----------|--------|-------------------|
-| Python 100 Days | ![](https://progress-bar.dev/0/) | 🔄 In Progress | 0/100 |
-| Golang Complete | ![](https://progress-bar.dev/0/) | 🔄 In Progress | 0/20 |
-| SQL Bootcamp | ![](https://progress-bar.dev/0/) | 🔄 In Progress | 0/15 |
-| JavaScript 2025 | ![](https://progress-bar.dev/0/) | 🔄 In Progress | 0/6 |
-
-**Total Projects Completed:** 0/141
-
----
-
-## 🛠️ Technologies & Tools
-
-### Programming Languages
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-
-### Frameworks & Libraries
-
-**Python:**
-- Flask / Django - Web frameworks
-- Pandas / NumPy - Data manipulation
-- Scikit-Learn - Machine learning
-- Matplotlib / Plotly - Data visualization
-- Selenium - Web automation
-- Beautiful Soup - Web scraping
-
-**JavaScript:**
-- Node.js - Runtime environment
-- React - UI library (future learning)
-- Express - Backend framework (future learning)
-- Parcel / Babel - Build tools
-
-**Database:**
-- PostgreSQL - Primary database
-- SQL - Query language
-
-### Development Tools
-- **Git & GitHub** - Version control
-- **VS Code** - Primary IDE
-- **Postman** - API testing
-- **Docker** - Containerization (future learning)
-
----
-
-## 📝 Project Documentation
-
-Each project directory contains:
-- **README.md** - Project overview, objectives, and instructions
-- **Source code** - Well-commented implementation
-- **Tests** - Unit tests where applicable
-- **Screenshots** - Visual documentation of the project
-- **Notes** - Key learnings and challenges faced
-
-### Code Quality Standards
-- Clean, readable code with meaningful variable names
-- Comprehensive comments explaining complex logic
-- Consistent formatting and style
-- Error handling and edge case management
-- Version control with descriptive commit messages
-
----
-
-## 🤝 Contributing
-
-This is a personal learning repository, but suggestions and feedback are welcome! If you spot any issues or have recommendations:
-
-1. Open an issue describing the problem or suggestion
-2. Feel free to fork and submit pull requests
-3. Share your own learning experiences and tips
 
 ---
 
@@ -514,10 +410,9 @@ This is a personal learning repository, but suggestions and feedback are welcome
 
 Feel free to reach out if you have questions or want to connect:
 
-- 💼 LinkedIn: [Your Profile]
-- 🐙 GitHub: [Your Profile]
-- 📧 Email: [Your Email]
-- 🌐 Portfolio: [Your Website]
+- 💼 [LinkedIn:](www.linkedin.com/in/amirabbas-afrasiyabi-a6a230259)]
+- 🐙 [Github](https://github.com/AmirabbasAfrasiyabi)]
+- 📧 Email: [abb.afrasiyabi@gmail.com]
 
 ---
 
@@ -542,12 +437,4 @@ Special thanks to:
 **Expected Completion:** December 2026  
 **Last Updated:** December 26, 2025
 
----
 
-**⭐ Star this repository if you find it helpful!**
-
-**🌟 Follow along on this learning journey!**
-
----
-
-*"The expert in anything was once a beginner."*
