@@ -404,15 +404,7 @@ npx http-server -p 8000
 - [JSON Formatter](https://jsonformatter.org/)
 - [SQL Fiddle](http://sqlfiddle.com/) - Test SQL queries online
 
----
 
-## 📞 Contact & Social
-
-Feel free to reach out if you have questions or want to connect:
-
-- 💼 [LinkedIn:](www.linkedin.com/in/amirabbas-afrasiyabi-a6a230259)]
-- 🐙 [Github](https://github.com/AmirabbasAfrasiyabi)]
-- 📧 Email: [abb.afrasiyabi@gmail.com]
 
 ---
 
