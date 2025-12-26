@@ -398,13 +398,6 @@ npx http-server -p 8000
 - [PostgreSQL Docs](https://www.postgresql.org/docs/)
 - [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-### Helpful Tools
-- [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
-- [Regex101](https://regex101.com/) - Regular expression tester
-- [JSON Formatter](https://jsonformatter.org/)
-- [SQL Fiddle](http://sqlfiddle.com/) - Test SQL queries online
-
-
 
 ---
 
